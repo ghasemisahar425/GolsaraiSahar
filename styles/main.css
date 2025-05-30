@@ -1,0 +1,132 @@
+/* rules for the main page body */
+
+body {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.title {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: mistyrose;
+  text-shadow: 1px 1px magenta;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 100;
+}
+
+/* rules for the main container */
+
+.main-container {
+  position: relative;
+  width: calc(100vw - 15px);
+  margin: 0 auto;
+}
+
+.page1 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url("../images/greenbg.png") center center/100% 100% no-repeat;
+}
+
+.frame {
+  position: relative;
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/* rules for the main page header */
+
+header {
+  position: absolute;
+  top: 2vh;
+  width: 100%;
+}
+
+.nav-bar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.brand-header {
+  font-family: 'Times New Roman', Times, serif;
+  margin-right: auto;
+}
+
+.menu {
+  display: block;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.icon-btn {
+  display: inline-block;
+  font-size: 12px;
+  padding: 0.7rem;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.menu-btn {
+  display: none;
+  padding: 0.65rem 0.7rem 0.65rem 0.7rem;
+}
+
+.like-btn,
+.menu-btn {
+  background-color: #8ed456;
+}
+
+.cart-btn {
+  background-color: #d8055a;
+}
+
+/* rules for the main text */
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 40vh;
+  bottom: 5vh;
+}
+
+.caption {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 60px;
+}
+
+.sub-caption {
+  font-size: 25px;
+}
+
+.order-btn {
+  width: 60%;
+  text-align: center;
+  padding: 10px;
+  background-color: #d8055a;
+  margin-top: 25px;
+  border-radius: 20px;
+  margin-bottom: auto;
+}
+
+
